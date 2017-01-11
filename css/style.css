@@ -160,6 +160,12 @@ figure:hover .transform01 {
 	transform: scale(1.2);
 }
 
+/*スマホ*/
+figure.hover .transform01 {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
 figure {
 	position: relative;
 	overflow: hidden;
@@ -177,6 +183,12 @@ figcaption {
 	transition: .3s;
 	opacity: 0;
 }
+
+/*スマホ*/
+figure.hover figcaption {
+	opacity: 1;
+}
+
 figure:hover figcaption {
 	opacity: 1;
 }
