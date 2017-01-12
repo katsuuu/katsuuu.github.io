@@ -17,6 +17,9 @@
 .navbar-default .navbar-brand {
   color: black;
 }
+.padr65{
+    padding-right: 65px;
+}
 
 em {
     font: inherit;
