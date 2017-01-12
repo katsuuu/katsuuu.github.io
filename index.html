@@ -8,7 +8,9 @@
 
 <!-- Bootstrap -->
 <link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
+<!-- style.css -->
+<link type="text/css" rel="stylesheet" media="(min-width: 769px)" href="css/style.css">
+<link type="text/css" rel="stylesheet" media="(max-width: 768px)" href="css/style_mobile.css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -177,5 +179,30 @@ $(function(){
 });
 </script>
 
+<!-- スマホ用 -->
+<script>
+var linkTouchStart = function(){
+    thisAnchor = $(this);
+    touchPos = thisAnchor.offset().top;
+    moveCheck = function(){
+        nowPos = thisAnchor.offset().top;
+        if(touchPos == nowPos){
+            thisAnchor.addClass("hover");
+        }
+    }
+    setTimeout(moveCheck,100);
+}
+var linkTouchEnd = function(){
+    thisAnchor = $(this);
+    hoverRemove = function(){
+        thisAnchor.removeClass("hover");
+    }
+    setTimeout(hoverRemove,500);
+}
+ 
+$(document).on('touchstart mousedown','a',linkTouchStart);
+$(document).on('touchend mouseup','a',linkTouchEnd);
+</script> 
+    
 </body>
 </html>

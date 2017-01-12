@@ -1,0 +1,226 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.navbar-brand {
+  position: relative;
+  height: 50px;
+  padding: 40px -20px 15px 10px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: nomal;
+  letter-spacing: .05em;
+}
+.navbar-brand:hover,
+.navbar-brand:focus {
+  text-decoration: none;
+}
+.navbar-default .navbar-brand {
+  color: black;
+}
+
+em {
+    font: inherit;
+    text-decoration: inherit;
+    color: #777777;
+    }
+em:hover{
+	color: black;
+    text-decoration: none;
+}
+.textbox{
+	height: 94vh;
+	min-height: 300px;
+	text-align: left;
+	padding-left: 8%;
+	padding-top: 37vh;
+}
+.wtypes{
+	color: #868686;
+	font-weight: lighter;
+	margin-top: -5px;
+	letter-spacing: .085em;
+}
+
+/*Life_with_Honda*/
+.padw{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.padlwh{
+	padding: 0px 0px 50px 0px;
+}
+
+/*動画用*/
+.yohaku{
+	position: relative;
+	height: 50px;
+}
+
+
+.footertext{
+  	float: left;
+  	height: 50px;
+  	padding: 25px 0px 56px 0px;
+  	font-size: 10px;
+  	line-height: 20px;
+  	color: black;
+  	font-weight: normal;
+  	letter-spacing: .07em;
+}
+
+.footertext:hover{
+    color: #A7A7A7;
+    text-decoration: none;
+}
+
+.navbar-about{
+  float: left;
+  height: 50px;
+  padding: 30px 15px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #777777;
+  font-weight: normal;
+  letter-spacing: .05em;
+  
+}
+
+/*index.html*/
+h3 a {
+	color: black;	
+}
+h3 a:hover {
+	text-decoration: inherit;
+    color: #777777;	
+}
+	
+.o-3col .col-sm-4 { padding: 0;}
+.o-3col .col-sm-6 { padding: 0;}
+.o-3col .col-md-4 { padding: 0;}
+
+/*inner.html*/
+.pad30{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.mgnbtm50{
+	margin-bottom: 50px;
+}
+
+.padbtm50{
+	padding-bottom: 50px;
+}
+
+/*about.html*/
+.abouttextbox{
+	height: 94vh;
+	min-height: 300px;
+	text-align: left;
+	padding-left: 8%;
+	padding-top: 12%;
+}
+.abouttextbox p {
+	font-size: 11.5px;
+	padding-top: 10px;
+	line-height: 1.65em;
+	letter-spacing: .075em;
+	color: #2C2C2C;
+}
+
+.aboutin{
+	margin-top: 38px;
+}
+.abouttytle{
+	color: #868686;
+	font-weight: normal;
+	font-size: 10px;
+	margin-top: 5px;
+	margin-bottom: -5px;
+	padding-bottom: 0px;
+	letter-spacing: .085em;
+}
+
+.uline{
+	text-decoration: underline;
+}
+
+/*WORKS ANIMATION*/
+.transform01 {
+			-webkit-transform: scale(1);
+			transform: scale(1);
+			-webkit-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+		}
+figure:hover .transform01 {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+/*スマホ*/
+figure.hover .transform01 {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+figure {
+	position: relative;
+	overflow: hidden;
+	width: 300px;
+}
+figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	-webkit-transition: .3s;
+	transition: .3s;
+	opacity: 0;
+}
+
+/*スマホ*/
+figure.hover figcaption {
+	opacity: 1;
+}
+
+figure:hover figcaption {
+	opacity: 1;
+}
+
+figure h3 {
+	padding: 36% 0 0px;
+	color: #fff;
+	font-size: 18pt;
+	line-height: 1.15em;
+	text-align: center;
+	font-weight: normal;
+	letter-spacing: .05em;
+}
+figure p {
+	color: #fff;
+	font-size: 12pt;
+	text-align: center;
+	font-weight: lighter;
+	line-height: .3em;
+	letter-spacing: .09em;
+}
+figcaption a{
+	border:1px solid #fff;
+	margin-top: 1.5em;display: 
+		inline-block;
+	color: #fff;
+	font-size: 8.5pt;
+	font-weight: normal;
+	padding: 7px 3em;
+}
+figcaption a:hover{
+	border:1px solid #fff;
+	text-decoration: none;
+	color: #fff;
+	padding: 7px 7em;
+}
+
+
