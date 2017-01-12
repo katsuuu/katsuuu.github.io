@@ -46,9 +46,12 @@ em:hover{
 	padding-left: 15px;
 	padding-right: 15px;
 }
-
 .padlwh{
 	padding: 0px 0px 50px 0px;
+}
+/*BAPA*/
+.padbapa{
+	padding: 0px 0px 0px 0px;
 }
 
 /*動画用*/
