@@ -8,7 +8,7 @@
   font-size: 13px;
   line-height: 20px;
   font-weight: nomal;
-  letter-spacing: .05em;
+  letter-spacing: .04em;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -41,7 +41,7 @@ em:hover{
 	color: #868686;
 	font-weight: lighter;
 	margin-top: -5px;
-	letter-spacing: .085em;
+	letter-spacing: .04em;
 }
 
 /*Life_with_Honda*/
